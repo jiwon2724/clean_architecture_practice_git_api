@@ -13,6 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "clean_rchitecture_mvi_practice"
-include ':presentation'
 include ':domain'
 include ':data'
+include ':mvi'
+include ':mvvm'
