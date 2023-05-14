@@ -1,2 +1,2 @@
-# clean_architecture_mvi_practice
-multi module + mvi,mvvm + compose pratice repo
+# clean_architecture_mvvm_mvi_practice
+multi module + mvi(compose),mvvm + pratice repo
