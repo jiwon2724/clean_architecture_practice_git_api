@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Clean_rchitecture_mvi_practice">
         <activity
+            android:name=".CustomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
