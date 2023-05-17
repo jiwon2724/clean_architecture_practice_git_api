@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Clean_rchitecture_mvi_practice" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+  
+    <style name="Base.Theme.Clean_rchitecture_mvi_practice" parent="Theme.AppCompat.Light.NoActionBar">
+
     </style>
 
     <style name="Theme.Clean_rchitecture_mvi_practice" parent="Base.Theme.Clean_rchitecture_mvi_practice" />
+    
+    
+    
+    <style name="Theme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/git_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Clean_rchitecture_mvi_practice</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
 </resources>
