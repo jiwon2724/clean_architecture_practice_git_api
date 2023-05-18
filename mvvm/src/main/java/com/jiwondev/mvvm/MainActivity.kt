@@ -24,14 +24,15 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        installSplashScreen()
+         installSplashScreen()
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        startAnimationWithShow(this, binding.testView, R.anim.enter)
-
-        binding.testView.setOnClickListener {
-            startAnimationWithHide(this, binding.testView, R.anim.exit)
-        }
+//        startAnimationWithShow(this, binding.testView, R.anim.enter)
+//
+//        binding.testView.setOnClickListener {
+//            startAnimationWithHide(this, binding.testView, R.anim.exit)
+//        }
     }
 }
