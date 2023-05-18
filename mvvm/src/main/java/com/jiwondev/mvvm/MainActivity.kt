@@ -16,6 +16,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.DialogFragment
+import coil.Coil
+import coil.imageLoader
+import coil.load
+import coil.request.ImageRequest
 import com.jiwondev.mvvm.common.extension.startAnimationWithHide
 import com.jiwondev.mvvm.common.extension.startAnimationWithShow
 import com.jiwondev.mvvm.databinding.ActivityMainBinding
@@ -29,10 +33,5 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        startAnimationWithShow(this, binding.testView, R.anim.enter)
-//
-//        binding.testView.setOnClickListener {
-//            startAnimationWithHide(this, binding.testView, R.anim.exit)
-//        }
     }
 }
