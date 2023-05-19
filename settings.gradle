@@ -11,6 +11,8 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+
+
 }
 rootProject.name = "clean_rchitecture_mvi_practice"
 include ':domain'
