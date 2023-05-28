@@ -23,8 +23,10 @@ import coil.request.ImageRequest
 import com.jiwondev.mvvm.common.extension.startAnimationWithHide
 import com.jiwondev.mvvm.common.extension.startAnimationWithShow
 import com.jiwondev.mvvm.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.serialization.Serializable
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
