@@ -56,6 +56,9 @@ dependencies {
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:1.0.0")
 
 
+    // ㄹㅏ이브러리 추가
+
+
 
 
 

@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.imageView.setOnClickListener {
+            Log.d("viewClick : ", "click")
+        }
+
 
     }
 }
